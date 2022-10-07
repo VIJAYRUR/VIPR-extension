@@ -1,0 +1,47 @@
+.header{
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+.fontText{
+    font-family: 'Inter', sans-serif;
+}
+
+.lightText{
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    color: rgb(94, 94, 94);
+}
+
+.lightWhite{
+    font-family: 'Inter', sans-serif;
+    font-weight: lighter;
+    color: rgb(84, 84, 84);
+    font-size:small;
+}
+
+
+
+.btn{
+    font-size: small;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.1);
+    margin:2px;
+}
+
+
+body{
+    height:300px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.devBy{
+    font-size:xx-small;
+}
+
+.bluButton{
+    background-color: lightblue;
+}

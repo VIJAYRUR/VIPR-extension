@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VIPR-wipe comments</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="popup.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class = "imghd text-center">
+      <img src = "wdlogotrans.png" height = "43.8px" width = "108px">
+    </div>
+    <div id="mainId">
+
+      <div class=" card-body text-center" width="250px" id="InputContainer">
+          <!-- <input type="description " id="inputBox" value="vj" onchange="oncha(this.value)"> -->
+          <textarea class="form-control container" id="inputBox" rows="6" cols="100" value=""
+              placeholder="Enter your code here."></textarea>
+      </div>
+
+      <div class="text-center buttons">
+          <button type="submit" id="submitButton" class="btn btn-success">Remove comments</button>
+          <!-- <button type="submit" id="submitButton" class="btn btn-success" onclick="oncli2()">Remove multi-line -->
+          <!-- comments</button> -->
+          <button type="submit" id="copyButton" class="btn btn-warning" >Copy</button>
+          <button type="submit" id="outButton" class="btn bluButton" >Show Output</button>
+
+      </div>
+      <br>
+      <div class="container" width="250px" id="OutputContainer">
+          <p id="outputText"></p>
+      </div>      
+  </div>
+    <p class="lightWhite text-center devBy">Developed by Sai Vijay Nagarur & Pranav Dhulipala</p><hr>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
